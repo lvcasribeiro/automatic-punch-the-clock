@@ -60,11 +60,11 @@ def macro_ponto():
 
     # Inserindo usuário:
     pytm.sleep(1.5);
-    navegador.find_element(by = By.XPATH, value = '/html/body/div[2]/div/div[2]/div[2]/input').send_keys('70656956119');
+    navegador.find_element(by = By.XPATH, value = '/html/body/div[2]/div/div[2]/div[2]/input').send_keys('login-user');
 
     # Inserindo senha:
     pytm.sleep(1.5);
-    navegador.find_element(by = By.XPATH, value = '/html/body/div[2]/div/div[3]/div[2]/input').send_keys('706569561190601');
+    navegador.find_element(by = By.XPATH, value = '/html/body/div[2]/div/div[3]/div[2]/input').send_keys('password');
 
     # Selecionando REP VIRTUAL:
     pytm.sleep(1.5);
@@ -163,7 +163,7 @@ def macro_ponto():
     print('----- - ----- - ----- - ----- - ----- - ----- - -----\n');
 
     # Enviando marcação para o whatsapp:
-    pywp.sendwhatmsg_instantly('+5562999444381', f'[⚡] - Ponto marcado às {hora}:{minuto}:{segundo} em {data}.', 15, True, 5);
+    pywp.sendwhatmsg_instantly('+5561900000000', f'[⚡] - Ponto marcado às {hora}:{minuto}:{segundo} em {data}.', 15, True, 5);
     
     # Delay de ciclo, evitando marcação em duplicata:
     pytm.sleep(60);
