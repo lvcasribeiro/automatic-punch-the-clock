@@ -54,7 +54,8 @@ pywp.sendwhatmsg_instantly('+5561900000000', f'[ ! ] - Clock in punched at {hora
 5. And finally press the register button, if the code is not correct, the process is repeated until success.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/96185134/225164817-05b20229-a4cd-4cd4-82c7-f6c2a44cbeba.png">
+    <img src="https://user-images.githubusercontent.com/96185134/225167796-055a24a8-700f-43b2-af6c-7856323993ac.png">
+
 </p>
 
 ##
